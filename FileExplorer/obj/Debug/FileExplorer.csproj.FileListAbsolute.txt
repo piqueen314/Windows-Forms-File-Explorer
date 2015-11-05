@@ -1,0 +1,8 @@
+C:\Code\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe.config
+C:\Code\FileExplorer\FileExplorer\obj\Debug\FileExplorer.mainForm.resources
+C:\Code\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+C:\Code\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.Cache
+C:\Code\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe
+C:\Code\FileExplorer\FileExplorer\bin\Debug\FileExplorer.pdb
+C:\Code\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
+C:\Code\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb
