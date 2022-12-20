@@ -65,7 +65,7 @@ namespace FileExplorer
             }
             catch (UnauthorizedAccessException)
             {
-                parentNode.Nodes.Add("Acess denied");
+                parentNode.Nodes.Add("Access denied");
 
             }
         }
