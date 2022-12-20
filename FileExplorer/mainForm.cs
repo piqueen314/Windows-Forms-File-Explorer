@@ -65,7 +65,7 @@ namespace FileExplorer
             }
             catch (UnauthorizedAccessException)
             {
-                parentNode.Nodes.Add("Acess denied");
+                parentNode.Nodes.Add("Access denied");
 
             }
         }
@@ -101,15 +101,6 @@ namespace FileExplorer
                 //add logic to read in directory contents 
                 string[] lines = File.ReadAllLines(inputTextBox.Text);
                 viewRichTextBox.Lines = lines;
-            }
-            else
-            {
-                if (Directory.Exists(inputTextBox.Text))
-                {
-                    directoryTreeView.Nodes.Add(inputTextBox.Text);
-
-                    PopulateTreeView(inputTextBox.Text, directoryTreeView.Nodes[0]);
-                }
             }
         }
 
