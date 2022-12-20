@@ -102,15 +102,6 @@ namespace FileExplorer
                 string[] lines = File.ReadAllLines(inputTextBox.Text);
                 viewRichTextBox.Lines = lines;
             }
-            else
-            {
-                if (Directory.Exists(inputTextBox.Text))
-                {
-                    directoryTreeView.Nodes.Add(inputTextBox.Text);
-
-                    PopulateTreeView(inputTextBox.Text, directoryTreeView.Nodes[0]);
-                }
-            }
         }
 
         private void openButton_Click(object sender, EventArgs e)
